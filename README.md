@@ -8,4 +8,4 @@ in the future.
 
 Lambda runtime: Node.js 18.x
 
-Using [AWS SDK v3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/) and a Lambda Layer with Axios
+Using [AWS SDK v3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/)
