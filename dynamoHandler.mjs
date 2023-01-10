@@ -22,7 +22,7 @@ export async function getTickers(event) {
         const get_response = await ddb.getItem(params)
         tickers = unmarshall(get_response.Item).tickers
     } catch (err) {
-        console.log(err)
+        throw err
     }
 
     return tickers
